@@ -1,0 +1,53 @@
+user_details mockei.io
+https://www.mocky.io/v2/5c419b730f00004b3fe7b8ba
+
+
+
+
+
+airtel recharge success
+http://www.mocky.io/v2/5c45a4d63200003b22af1874
+
+fail
+http://www.mocky.io/v2/5c45a5c83200002d2daf1880
+
+
+
+
+
+
+
+vodaphone recharge success
+http://www.mocky.io/v2/5c45a5fa320000952caf1884
+
+fail
+
+http://www.mocky.io/v2/5c45a5e8320000822caf1882
+
+
+
+
+
+
+bsnl recharge success
+http://www.mocky.io/v2/5c45a63d320000bf27af1888
+
+fail
+http://www.mocky.io/v2/5c45a5a6320000952caf187f
+
+
+
+
+
+
+
+idea recharge success
+http://www.mocky.io/v2/5c45a6123200002d2daf1885
+
+
+
+fail
+http://www.mocky.io/v2/5c45a5d73200002e2daf1881
+
+
+

@@ -1,0 +1,22 @@
+{
+    "q_name_binding_key_pair" :
+    [
+        {
+            "q_name": "q.q1",
+            "binding_key": "airtel"
+        },
+        {
+            "q_name": "q.q2",
+            "binding_key": "bsnl"
+        },
+        {
+            "q_name": "q.q3",
+            "binding_key": "vodaphone"
+        },
+        {
+            "q_name": "q.q4",
+            "binding_key": "idea"
+        }
+    ]
+        
+}

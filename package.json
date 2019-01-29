@@ -1,0 +1,23 @@
+{
+  "name": "project_rest_api_message_queuing",
+  "version": "1.0.0",
+  "description": "messaging ",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "elasticsearch": "^15.3.1",
+    "emailjs": "^2.2.0",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "node-async-loop": "^1.2.2",
+    "promise": "^8.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
