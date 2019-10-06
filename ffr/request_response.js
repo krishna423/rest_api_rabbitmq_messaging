@@ -5,7 +5,7 @@ var fs =require('fs')
 function url_gen(data){
 
 	var operator = data['operator'];
-	var file_path = './gateways/'+operator+'/config.json';
+	var file_path = './../gateways/'+operator+'/config.json';
 	var dd= fs.readFileSync(file_path,'utf-8')
     var data=JSON.parse(dd);
     var url = data['NETWORK_URL'];

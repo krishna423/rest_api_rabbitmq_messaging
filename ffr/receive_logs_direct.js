@@ -1,12 +1,12 @@
 
 var amqp = require('amqplib/callback_api');
 var Promise = require('promise');
-var operator_json = require('./common/operator_json_parse.js');
+var operator_json = require('./../common/operator_json_parse.js');
 var asyncLoop = require('node-async-loop');
 
 var req_res = require('./request_response.js');
-var elasticsearch_client = require('./elasticsearch/data_add.js');
-var elasticsearch_searching = require('./elasticsearch/search_id.js');
+var elasticsearch_client = require('./../elasticsearch/data_add.js');
+var elasticsearch_searching = require('./../elasticsearch/search_id.js');
 var publish_response = require('./response_exchange.js');
 var promise_req=new Promise(function(resolve,reject){
 

@@ -14,7 +14,7 @@ exports.recharge = function recharge_fun(data){
   var user_plan = data.user_plan;
   var msg_id=data.msg_id;
   var mail_id=data.mail_id;
-  //console.log('',recharge_number+ "    " + operator +"      "+ user_plan+"   "+msg_id)
+  console.log('',recharge_number+ "    " + operator +"      "+ user_plan+"   "+msg_id)
 
    var promise_req_msg_stats=new Promise(function(resolve,reject){
 

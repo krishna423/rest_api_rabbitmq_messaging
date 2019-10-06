@@ -14,7 +14,7 @@ var emit_recharge_msg = require('./emit_log_direct.js');
 
 
 var amqp = require('amqplib/callback_api');
-var mail_sending=require('./mailing.js');
+//var mail_sending=require('./mailing.js');
 
 
 
@@ -82,7 +82,7 @@ app.get('/plan_details', function (req, res) {
 var unique_id=1;
 var common_list=[];
 
-app.get('/recharger_details', function (req, res) {
+app.get('/recharge_details', function (req, res) {
    // console.log(res)
     common_list.push({"res_obj":res,"unique_id":unique_id});
 
@@ -99,6 +99,7 @@ app.get('/recharger_details', function (req, res) {
     };
     unique_id++;
 
+    console.log(request_details)
 
     var promise_req_msg=emit_recharge_msg.recharge(request_details);
     promise_req_msg.then(function(req_msg_status){
@@ -164,7 +165,7 @@ app.get('/recharger_details', function (req, res) {
                                             '\ttime\t\t:\t'+data_json.time+'\n'+
                                             '\toperator\t:\t'+data_json.operator+'\n';
 
-                                    mail_sending.mail_details(data_json.mail_id,status);
+                                    //mail_sending.mail_details(data_json.mail_id,status);
                                     console.log(status);
                                    delete(data_json['msg_id'])
 
